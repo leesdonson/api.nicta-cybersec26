@@ -17,7 +17,7 @@ const register = asyncHandler(async (req: Request, res: Response) => {
 // send target email
 const sendTargetEmail = asyncHandler(async (req: Request, res: Response) => {
   const token = crypto.randomUUID();
-  const targetEmail = "syntaxpacific@gmail.com";
+  const targetEmail = "***@gmail.com";
   const url = `http://localhost:5173/forgot-password?token=${token}`;
   // send email
   const result = await sendTargetMail(targetEmail, url);
