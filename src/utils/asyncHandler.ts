@@ -1,4 +1,4 @@
-import type { FnProps } from "@/types/index.js";
+import type { FnProps } from "@/types/index.ts";
 import type { NextFunction, Request, Response } from "express";
 
 export const asyncHandler =

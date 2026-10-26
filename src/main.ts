@@ -1,7 +1,7 @@
 import type { Request, Response, Express } from "express";
 import express from "express";
 
-import AuthRouter from "@/routes/auth.route.js";
+import AuthRouter from "@/routes/auth.route.ts";
 
 const app: Express = express();
 const PORT = 3000;
